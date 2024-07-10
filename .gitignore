@@ -1,1 +1,32 @@
-node_modules/\nbuild/\n*.log\n.env\n.DS_Store
+# Node modules directory
+node_modules/
+
+# Build output
+build/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# Dependency directories
+package-lock.json
+yarn.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE or Editor directories
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage reports
+coverage/
+
+# Cache files
+*.cache
+*.tmp
